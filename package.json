@@ -1,19 +1,27 @@
 {
-  "author": "Thomas Davies <thomasalwyndavis@gmail.com> (http://backbonetutorials.com/)",
-  "name": "backboneboilerplate",
-  "description": "A modular backbone environment",
+  "author": "Mika Petteri Korhonen <mika.petteri.korhonen@gmail.com>",
+  "name": "single-page-website",
+  "description": "Single page website Engine",
   "version": "0.0.0",
-  "homepage": "http://backboneboilerplate.com/",
+  "homepage": "git@github.com:jouk0/single-page-website.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thomasdavis/backboneboilerplate.git"
+    "url": "git@github.com:jouk0/single-page-website.git"
   },
   "main": "build/server",
   "engines": {
     "node": "~0.6.11"
   },
   "dependencies": {
-    "express": "~2.5.8"
+    "express": "~2.5.8",
+    "backbone": "*",
+    "underscore": "*",
+    "jquery": "*",
+    "raphael": "*",
+    "drmonty-datatables": "*",
+    "less": "*",
+    "blueimp-gallery": "*"
+    
   },
   "devDependencies": {},
   "optionalDependencies": {}
